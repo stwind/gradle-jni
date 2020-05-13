@@ -15,7 +15,7 @@ Tested on
 ## Prerequisite
 
 * OpenJDK 11+
-* cmake 3.13+
+* CMake 3.13+
 
 ## Building
 
