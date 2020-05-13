@@ -8,5 +8,6 @@ bin
 .vscode
 .settings
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 .classpath
 .project

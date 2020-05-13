@@ -41,7 +41,7 @@ clean.doFirst {
 }
 
 processResources {
-	dependsOn compileJNI
+  dependsOn compileJNI
 }
 
 tasks.withType(Test) {
