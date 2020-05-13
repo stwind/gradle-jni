@@ -9,5 +9,5 @@ public class Tools {
         return "foo";
     }
 
-    public native void bar();
+    public native String bar();
 }

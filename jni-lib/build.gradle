@@ -25,11 +25,19 @@ compileJava {
 }
 
 task compileJNI {
+  dependsOn compileJava
+
   doLast {
     exec {
       workingDir '.'
       commandLine 'bash', '-c', 'mkdir -p build/natives && cd build/natives && cmake ../.. && make'
     }
+  }
+}
+
+clean.doFirst {
+  delete fileTree('src/main/include') {
+    include 'jni_*.h'
   }
 }
 

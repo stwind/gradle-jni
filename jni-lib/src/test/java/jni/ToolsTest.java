@@ -8,6 +8,6 @@ class LibTest {
     void testFoo() {
         Tools tools = new Tools();
         assertEquals(tools.foo(), "foo");
-        tools.bar();
+        assertEquals(tools.bar(), "bar");
     }
 }
