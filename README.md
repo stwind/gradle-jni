@@ -6,6 +6,7 @@ Features
 
 * Automatic JNI header generation
 * Load shared libraries embeded in Jar
+* Unittest JNI with JUnit 5
 
 Tested on
 
