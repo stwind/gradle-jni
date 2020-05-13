@@ -5,7 +5,7 @@ A sample project setup/workflow for building JNI libraries (C++) with Gradle for
 Features
 
 * Automatic JNI header generation
-* Loading shared libraries from Jar
+* Load shared libraries embeded in Jar
 
 Tested on
 
