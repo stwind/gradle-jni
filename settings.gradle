@@ -8,4 +8,4 @@
  */
 
 rootProject.name = 'jni'
-include 'runner'
+include 'jni-runner', 'jni-lib'
