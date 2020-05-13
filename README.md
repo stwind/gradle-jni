@@ -27,7 +27,7 @@ $ cd gradle-jni
 $ ./gradlew run
 ```
 
-You should see the output
+The output should be something like
 
 ```
 Downloading https://services.gradle.org/distributions/gradle-6.4-bin.zip
