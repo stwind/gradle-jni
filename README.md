@@ -4,9 +4,9 @@ A sample project setup/workflow for building JNI libraries (C++) with Gradle for
 
 Features
 
-* Automatic JNI header generation
-* Load shared libraries embeded in Jar
-* Unittest JNI with JUnit 5
+* [Automatic JNI header generation](jni-lib/build.gradle#L24)
+* [Load shared libraries embeded in Jar](jni-lib/src/main/java/jni/Tools.java#L5)
+* [Unittest JNI with JUnit 5](jni-lib/build.gradle#L48)
 
 Tested on
 
