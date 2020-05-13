@@ -29,8 +29,7 @@ task compileJNI {
 
   doLast {
     exec {
-      workingDir '.'
-      commandLine 'bash', '-c', 'mkdir -p build/natives && cd build/natives && cmake ../.. && make'
+      commandLine 'sh', '-c', 'mkdir -p build/natives && cd build/natives && cmake ../.. && make'
     }
   }
 }
@@ -47,4 +46,5 @@ processResources {
 
 tasks.withType(Test) {
   systemProperty "java.library.path", "build/natives/lib"
+  testLogging.showStandardStreams = false
 }

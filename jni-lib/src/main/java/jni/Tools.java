@@ -2,7 +2,8 @@ package jni;
 
 public class Tools {
     static {
-        System.loadLibrary("tools");
+        if (!LibraryLoader.load(Tools.class, "tools"))
+            System.loadLibrary("tools");
     }
 
     public String foo() {
