@@ -1,6 +1,6 @@
 # JNI Project With Gradle 
 
-A sample project setup/workflow for building JNI libraries with Gradle for references.
+A sample project setup/workflow for building JNI libraries (C++) with Gradle for references.
 
 Features
 
