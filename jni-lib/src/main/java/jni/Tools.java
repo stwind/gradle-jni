@@ -1,7 +1,9 @@
 package jni;
 
-public class Lib {
+public class Tools {
     public String foo() {
         return "foo";
     }
+
+    public native void bar();
 }
