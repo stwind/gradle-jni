@@ -3,5 +3,5 @@
 
 JNIEXPORT void JNICALL Java_jni_Tools_bar(JNIEnv *env, jobject thisObject)
 {
-  std::cout << "Hello from C++ !!" << std::endl;
+  std::cout << "bar" << std::endl;
 }

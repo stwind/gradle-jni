@@ -36,3 +36,7 @@ task compileJNI {
 processResources {
 	dependsOn compileJNI
 }
+
+tasks.withType(Test) {
+  systemProperty "java.library.path", "build/natives/lib"
+}

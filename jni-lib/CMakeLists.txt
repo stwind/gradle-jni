@@ -36,4 +36,5 @@ if(NOT CMAKE_BUILD_TYPE)
       FORCE)
 endif(NOT CMAKE_BUILD_TYPE)
 
+include_directories(src/main/include)
 add_subdirectory(src/main/cpp)
